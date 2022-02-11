@@ -6,7 +6,13 @@ module.exports = {
                 width: 'width',
                 bottom: 'bottom',
             },
+            width: {
+                'device-width': '360px',
+            },
+            height: {
+                'device-height': '640px',
+            },
         },
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/typography')],
 };
